@@ -1,0 +1,139 @@
+/*CSS document*/
+
+/*Insert global rules here - rules that apply for all pages on your site and all device sizes. This could be text color, font type, font-sizes, margin on elements */
+
+/*COMMENTS WITH CAPITAL LETTERS ARE EASY TO SPOT, SO USE THEM FOR HEADINGS FOR OVERVIEW. IT IS A GOOD IDEA TO HAVE A HEADING FOR YOUR HEADER, NAVIGATION, MAIN AND FOOTER. SEE EXAMPLE BELOW*/
+
+
+/*HEADER*/
+
+/* example where you target the h1 inside the header tag and give it a color and a size */
+
+* {
+
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: adler;
+    src: url(adler.ttf);
+}
+
+
+header h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "ad"serif;
+}
+
+
+
+header {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#logo {
+    margin-left: 1%;
+    margin-top: 1%;
+    z-index: +4;
+    width: 15%;
+    position: absolute;
+
+}
+
+/*Main*/
+
+/* example to be deleted*/
+p {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+/* Header*/
+
+
+
+header li {
+    display: inline;
+    padding-right: 4%;
+    font-family: adler;
+
+}
+
+nav {
+    margin-left: 50%;
+    text-decoration: none;
+    position: absolute;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+nav {
+    top: 25px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+.background {
+    position: absolute;
+    z-index: -10;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+
+}
+
+audio {
+    float: left;
+    margin-top: 47%;
+    margin-left: 2%;
+    opacity: 1;
+    width: 280px;
+}
+
+
+/*Body*/
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255) transparent;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container > div {
+    background-color: rgb(255, 255, 255) transparent;
+    width: 500px;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    line-height: 300px;
+    font-size: 30px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width:979px) {}
+
+@media screen and (min-width: 980px) {}

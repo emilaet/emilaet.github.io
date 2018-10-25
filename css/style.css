@@ -1,0 +1,96 @@
+* {
+
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: adler;
+    src: url(adler.ttf);
+}
+
+
+header h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "ad"serif;
+}
+
+
+
+header {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#logo {
+    margin-left: 1%;
+    margin-top: 1%;
+    z-index: +4;
+    width: 15%;
+    position: absolute;
+
+}
+
+/*Main*/
+
+
+/* HEADER*/
+
+header li {
+    display: inline;
+    padding-right: 4%;
+    font-family: adler;
+}
+
+nav {
+    margin-left: 50%;
+    text-decoration: none;
+    position: absolute;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav {
+    top: 25px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.background {
+    position: fixed;
+    z-index: -10;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+audio {
+    float: left;
+    margin-top: 47%;
+    margin-left: 2%;
+    opacity: 1;
+    width: 280px;
+}
+
+
+
+/*Body*/
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:979px) {}
+
+@media screen and (min-width: 980px) {}
